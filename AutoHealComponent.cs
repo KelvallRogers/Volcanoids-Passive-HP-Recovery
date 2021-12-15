@@ -8,7 +8,7 @@ namespace Passive_HP_Recovery {
             if (!gameObject.TryGetComponentSafe(out Health healthComponent)) return;
 
             if (healthComponent.CurrentHP < healthComponent.MaxHP && !healthComponent.IsDead) {
-                healthComponent.CurrentHP += 8 * Time.deltaTime;
+                healthComponent.CurrentHP += 0.5 * Time.deltaTime;
             }
         }
     }
