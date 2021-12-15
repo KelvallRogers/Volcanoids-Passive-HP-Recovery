@@ -8,3 +8,4 @@ This causes you to slowly recover HP over time.
 
 # Installation
 - See https://github.com/Synthlight/Volcanoids-Modding-Wiki/wiki#installing-mods
+- See https://modding.volcanoids.com/
